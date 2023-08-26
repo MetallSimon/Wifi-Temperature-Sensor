@@ -7,3 +7,4 @@ The Sensor measures the temperature and humidity every 6 seconds (#define interv
 Once the RTC Memory is full(about 12 Minutes/126 measurements) it will connect to the configured Wifi and send all values to a MQTT Server in the configured Channel.
 
 The Data is provided as "blob" so it has to be formatted.
+The Temperature can be converted with the Formula: Temp = ((Value/65535)*200)-50  or with the Python program "Convert.py"
