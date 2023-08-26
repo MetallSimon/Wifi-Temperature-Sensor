@@ -1,5 +1,6 @@
 # Wifi-Temperature-Sensor
-ESP8266 and AHT21 based Temperature and Humidity Sensor
+ESP8266 and AHT21 based Temperature and Humidity Sensor. It's still in very unfinished State, but its working and can also transmit the battery Level to the MQTT Server. 
+Battery Lifetime with a 400mah LiFePO4 battery(DURACELL SOLAR BATTERY) should be roughly 3 Weeks with 6 second Inverval. 3 
 
 The PCB Design is available on Circuitmaker:
 
